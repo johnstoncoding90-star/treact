@@ -1,8 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
-   padding: 0;
+   padding: ;
    margin: 0;
    box-sizing: border-box;
    font-family: "Inter", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin: 0 12px 0 0;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    padding: 32px;
+}
+
+.nav__links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav__link--app-download {
+    font-size: 24px;
+    font-weight: 800;
+    color: #243e63;
+    margin: 0px 24px 0px 0px;
+    padding: 0px 0px 4px;
+    display: flex;
+    align-items: center;
+}
+
+.light__navlinks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.light__navlink {
+    font: 14px;
+    margin: 0 24px;
+    padding: 0 0 4px;
+}
+
+.nav__link--primary {
+    color: #f7fafc;
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border-radius: 12px;
 }
