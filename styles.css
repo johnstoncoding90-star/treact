@@ -83,6 +83,28 @@ img {
 
 */
 
+.row {
+    display: flex;
+    
+}
+
+.left__column {
+    width:50%;
+}
+
 input {
     border: none;
+}
+
+.customers {
+    width: 100%;
+    height: auto;
+}
+
+.right__column {
+    width: 50%;
+
+}
+.right__column--img {
+    height: 100%;  
 }
