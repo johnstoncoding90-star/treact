@@ -8,7 +8,8 @@
 }
 
 body {
-    max-width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .bg__div {
@@ -20,7 +21,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
     color: #a0aec0;
 }
 
@@ -108,14 +109,17 @@ img {
 
 .left__column--input {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     width: 100%;
     position: relative;
     border: solid 1px;
     border-radius: 9999px;
+    overflow: hidden;
 }
- 
+
 input {
+    border: none;
+    padding: 16px;
     
 }
 
@@ -132,10 +136,6 @@ button {
 
 .left__column--customers-container {
     padding: 80px 0 0;
-}
-
-input {
-    border: none;
 }
 
 .customers__img {
