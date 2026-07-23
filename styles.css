@@ -81,7 +81,7 @@ img {
     color: #f7fafc;
     background-color: #6415ff;
     padding: 12px 32px;
-    border-radius: 12px;
+    border-radius: 9999px;
     white-space: nowrap;
     display: inline-block;
 }
@@ -96,14 +96,38 @@ img {
 
 }
 
+.left__column {
+    width:41%;
+    text-align: left;
+}
+
 .left__column--para {
     color: #243e63;
     margin: 32px 0;
 }
 
-.left__column {
-    width:41%;
-    text-align: left;
+.left__column--input {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    border: solid 1px;
+    border-radius: 9999px;
+}
+ 
+input {
+    
+}
+
+button {
+    background-color: #6415ff;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    margin: 8px 8px 8px 0;
+    padding: 16px;
+    border-radius: 9999px;
+
 }
 
 .left__column--customers-container {
