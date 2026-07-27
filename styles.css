@@ -124,10 +124,11 @@ nav {
     justify-content: space-between;
     border: solid 2px;
     border-radius: 9999px;
-    
+    position: relative;
 }
 
 input {  
+    width: 100%;
     border: none;
     border-radius: 9999px;
     padding: 20px 192px 20px 32px;
@@ -143,7 +144,10 @@ input {
     color: #f7fafc;
     margin: 8px 8px 8px 0;
     padding: 16px 0;
-    
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .customers {
