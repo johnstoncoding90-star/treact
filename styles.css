@@ -98,6 +98,12 @@ nav {
     font-weight: 600;
 }
 
+/*
+
+HEADER
+
+*/
+
 .about__wrapper {
     display: flex;
     align-items: center;
@@ -111,46 +117,49 @@ nav {
 .header__about {
     width: 100%;
     color: #1a202c;
-    font-size: 36px;
+    font-size: 48px;
 }
 
 .about__para {
     width: 100%;
     margin: 32px 0;
     font-size: 18px;
+    color:#243e63;
 }
 
 .input__wrapper {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    border: solid 2px;
+    border: solid 2px rgb(226, 232, 240);
     border-radius: 9999px;
-    position: relative;
+    padding: 4px;
 }
 
 input {  
+    opacity: 40%;
+    flex: 1;
+    min-width: 0;
     font-weight: 500;
+    font-size: 16px;
     width: 100%;
     border: none;
     border-radius: 9999px;
-    padding: 20px 192px 20px 32px;
-
+    padding: 16px 28px;
 }
 
 .btn__input {
-    height: 52px;
     width: 160px;
+    height: 52px;
     border: none;
+    flex-shrink: 0;
     border-radius: 9999px;
     background-color:#6415ff;
     color: #f7fafc;
-    margin: 8px 8px 8px 0;
+    margin: 0;
     padding: 16px 0;
-    position: absolute;
-    right: 0px;
+    position: static;
+    right: 8px;
     top: 50%;
-    transform: translateY(-65%);
     font-weight: 700;
     font-size: 16px;
 }
@@ -160,10 +169,15 @@ input {
     margin: 80px 0 0;
 }
 
+p {
+    color:#a0aec0;
+}
+
 .customers {
     max-width: 100%;
     margin: 16px 0 0;
     padding: 0 128px 0 0;
+    opacity: 50%;
 }
 
 
@@ -174,4 +188,17 @@ input {
 .about__img {
     width: 100%;
     height: 100%;
+}
+
+
+
+/*
+FEATURES
+
+*/
+
+#features .row__narrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
