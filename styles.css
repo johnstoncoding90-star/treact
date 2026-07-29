@@ -19,6 +19,12 @@ body {
     margin: 0 auto;
 }
 
+.row__narrow {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 
 
 .container {
@@ -206,8 +212,35 @@ FEATURES
 
 .features__grid {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.features__subtitle {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.features__title {
+    font-size: 48px;
+    color: #243e63;
+}
+
+.features__para {
+    font-size: 18px;
+    color: #7c8ba1;
+    margin: 16px 0 0;
 }
 
 .feature {
     display: flex;
+    width: calc(100% / 3)
 }
+
+.feature__img-wrapper {
+    width: 66px;
+    height: 66px;
+    padding: 20px;
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 9999px;
+}
+
