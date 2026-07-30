@@ -219,7 +219,7 @@ FEATURES
 .feature__wrapper {
     display: flex;
     flex-wrap: wrap;
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 32px);
     margin: 0 16px;
     padding: 32px 8px;
 }
