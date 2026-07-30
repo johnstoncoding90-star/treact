@@ -211,7 +211,7 @@ FEATURES
     flex-wrap: wrap;
 }
 
-.features__grid {
+.features__wrapper {
     display: flex;
     flex-wrap: wrap;
 }
@@ -220,6 +220,8 @@ FEATURES
     display: flex;
     flex-wrap: wrap;
     width: calc(100% / 3);
+    margin: 0 16px;
+    padding: 32px 8px;
 }
 
 .features__subtitle {
@@ -250,3 +252,9 @@ FEATURES
     border-radius: 9999px;
 }
 
+
+.feature__description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
