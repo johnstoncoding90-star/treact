@@ -5,6 +5,7 @@
    margin: 0;
    box-sizing: border-box;
    font-family: "Inter", sans-serif;
+   color: #243e63;  
 }
 
 
@@ -215,6 +216,12 @@ FEATURES
     flex-wrap: wrap;
 }
 
+.feature__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+}
+
 .features__subtitle {
     font-size: 16px;
     font-weight: 700;
@@ -232,8 +239,7 @@ FEATURES
 }
 
 .feature {
-    display: flex;
-    width: calc(100% / 3)
+    display: flex;   
 }
 
 .feature__img-wrapper {
