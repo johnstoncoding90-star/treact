@@ -102,6 +102,7 @@ nav {
     border-radius: 9999px;
     background: #6415ff;
     padding: 12px 32px;  
+    margin: 0;
     font-weight: 600;
 }
 
@@ -178,6 +179,8 @@ input {
 
 p {
     color:#a0aec0;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .customers {
@@ -252,9 +255,22 @@ FEATURES
     border-radius: 9999px;
 }
 
+.text__container {
+    padding: 8px 0 0 16px;
+}
+
+.feature__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 16px 0 0;
+}
 
 .feature__description {
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
+    margin: 16px 0 0;
+    font-size: 16px;
+    color: #7c8ba1;
+    line-height: 2;
 }
