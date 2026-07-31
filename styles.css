@@ -16,7 +16,7 @@ body {
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -296,11 +296,14 @@ QUALITY
 
 .quality__wrapper {
     display: flex;
+    justify-content: space-between;
+    
 }
 
 .quality__left {
     width: 50%;
     padding: 32px 0;
+    margin-right: 64px;
     position: relative;
 }
 
@@ -311,12 +314,13 @@ QUALITY
 .quality__para-description {
     font-size: 18px;
     font-weight: 500;
+    color: #7c8ba1;
     margin: 16px 0 0;
     line-height: 1.625;
 }
 
 .learn__more-link {
-    font: 14px;
+    font-size: 14px;
     font-weight: 700;
     border: none;
     background-color: #6415ff;
