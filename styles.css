@@ -58,8 +58,6 @@ main {
     font-weight: 900;
 }
 
-
-
 a {
     text-decoration: none;
 }
@@ -68,6 +66,13 @@ ul {
     list-style-type: none;
 }
 
+.description__para {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    margin: 16px 0 0;
+    line-height: 1.625;
+}
 /*
 
 NAVBAR
@@ -419,3 +424,9 @@ li {
     font-weight: 500;
     line-height: 2;
 }
+
+/*
+
+ VALUES 
+
+  */
