@@ -430,3 +430,57 @@ li {
  VALUES 
 
   */
+
+
+  #values .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .values__text--wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .left__column-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .values__para {
+    margin: 32px 0 0;
+  }
+
+  .values__description {
+    display: flex;
+  }
+
+  .description__left {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 32px 0 0;
+  }
+
+  .description__right {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0 0;
+  }
+
+  .value__title--wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .values__img--wrapper {
+    width: 50%;
+  }
+
+  .values__img {
+    width: 100%;
+    height: auto;
+  }
+
