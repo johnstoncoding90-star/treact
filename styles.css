@@ -285,6 +285,7 @@ FEATURES
     font-size: 18px;
     color: #7c8ba1;
     margin: 16px 0 0;
+    max-width: 36rem;
 }
 
 .feature {
@@ -639,8 +640,19 @@ li {
         align-items: center;
     }
 
+    .plan__features {
+    width: calc(100% + 64px);
+        border-block: 1px solid  rgb(226, 232, 240);
+        padding: 32px;
+        margin: 0 -32px;
+    }
+
      .plan__price--wrapper {
+        width: 100%;
         padding: 32px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 
     .plan__price--wrapper--business {
@@ -671,14 +683,23 @@ li {
         font-weight: 700;
     }
 
-    .feature__title {
+    .plan__feature--title {
        font-size: 20px;
        font-weight: 700;
        color:#1a202c; 
     }
 
-    .feature {
+    .plan__feature {
+        width: 100%;
+        color:#718096;
+        display: flex;
+        justify-content: center;
         padding: 20px 0 0;
+        font-weight: 500;
+    }
+
+    .plan__feature--business {
+        color: #e2e8f0;
     }
 
     .feature__button--wrapper {
@@ -709,3 +730,10 @@ li {
         background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
         color: #f7fafc;
     }
+
+    .card__business .plan__title,
+.card__business .plan__price,
+.card__business .plan__period,
+.card__business .feature__title {
+  color: #f7fafc;
+}
