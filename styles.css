@@ -549,3 +549,163 @@ li {
     height: auto;
   }
 
+
+    /*
+
+  PRICING
+
+    */
+
+
+    #pricing, .row, .pricing__text--wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .pricing__title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .description__para {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    .pricing__para {
+        max-width: 36rem;
+    }
+
+    .price__card--wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .price__card {
+        width: calc((100% / 3) - 32px);
+        margin: 64px 32px 0 0;
+        padding: 8px 32px 0;
+        border: 1px solid rgb(226, 232, 240);
+        border-radius: 16px;
+    }
+
+    .card__personal, .card__enterprise {
+        z-index: 1;
+        position: relative;
+    }
+
+    .card__business {
+        color: #f7fafc;
+        background-color:rgb(100 21 255 / var(--tw-bg-opacity));
+        background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    }
+
+
+    .color__band--personal {
+        width: 100%;
+        background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+        height: .5rem;
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        top: 0;
+    }
+
+    .color__band--enterprise {
+        width: 100%;
+        background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+        height: .5rem;
+        border-top-left-radius: .5rem;
+        border-top-right-radius: .5rem;
+        position: absolute;
+        z-index: 3;
+        left: 0;
+        top: 0;
+    }
+
+    .plan__price--wrapper, .feature__button--wrapper, .plan__features {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .plan__price--wrapper {
+        padding: 32px 0;
+    }
+
+    .plan__price--wrapper--business {
+        padding: 32px 0;
+    }
+
+    .plan__title {
+        font-size: 20px;
+        color:#1a202c;
+        font-weight: 700;
+        line-height: 1.625;
+    }
+
+
+    .plan__price {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 48px;
+        color:#1a202c;
+        font-weight: 700;
+        margin: 4px 0;
+    }
+
+    .plan__period {
+        font-size: 16px;
+        color: #a0aec0;
+        font-weight: 700;
+    }
+
+    .feature__title {
+       font-size: 20px;
+       font-weight: 700;
+       color:#1a202c; 
+    }
+
+    .feature {
+        padding: 20px 0 0;
+    }
+
+    .feature__button--wrapper {
+        padding: 32px 64px;
+    }
+
+    .feature__button {
+        font-size: 14px;
+        font-weight: 700;
+        width: 192px;
+        height: 53px;
+        padding: 16px 32px;
+        border: none;
+        border-radius: 9999px;
+    }
+
+    .feature__button--personal {
+        background:linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+        color: #f7fafc;
+    }
+
+    .feature__button--business {
+        background: #f7fafc;
+        color: #6415ff;
+    }
+
+    .feature__button--enterprise {
+        background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+        color: #f7fafc;
+    }
