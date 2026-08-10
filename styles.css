@@ -642,10 +642,16 @@ li {
 
     .plan__features {
     width: calc(100% + 64px);
-        border-block: 1px solid  rgb(226, 232, 240);
+        border-block: 2px solid  rgb(226, 232, 240);
         padding: 32px;
         margin: 0 -32px;
     }
+
+    .plan__features--business {
+    width: calc(100% + 64px);
+    border-block: 2px solid;
+    border-color: rgb(102, 126, 234);
+}
 
      .plan__price--wrapper {
         width: 100%;
@@ -714,6 +720,12 @@ li {
         padding: 16px 32px;
         border: none;
         border-radius: 9999px;
+        transition: all 0.3s ease;
+    }
+
+    .feature__button:hover {
+        box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+        transform: translateY(-1px) translateX(1px);
     }
 
     .feature__button--personal {
@@ -724,6 +736,10 @@ li {
     .feature__button--business {
         background: #f7fafc;
         color: #6415ff;
+    }
+
+    .feature__button--business:hover {
+        background: rgb(226 232 240);
     }
 
     .feature__button--enterprise {
