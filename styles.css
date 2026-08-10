@@ -753,3 +753,44 @@ li {
 .card__business .feature__title {
   color: #f7fafc;
 }
+
+
+/*
+
+TESTIMONIALS
+
+*/
+
+#testimonials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials__column-wrapper {
+    display: flex;
+}
+
+.testimonials__img-wrapper {
+    display: flex;
+    width: 50%;
+}
+
+.testimonials__img {
+    width:100%;
+}
+
+.testimonials__text-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial__client-wrapper {
+    display: flex;
+}
+
+.photo__client {
+    width: 80px;
+    height: 80px;
+}
