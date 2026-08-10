@@ -558,7 +558,7 @@ li {
     */
 
 
-    #pricing, .row, .pricing__text--wrapper {
+    #pricing .pricing__text--wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -641,7 +641,7 @@ li {
     }
 
     .plan__features {
-    width: calc(100% + 64px);
+        width: calc(100% + 64px);
         border-block: 2px solid  rgb(226, 232, 240);
         padding: 32px;
         margin: 0 -32px;
