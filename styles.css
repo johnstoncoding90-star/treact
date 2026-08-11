@@ -4,8 +4,7 @@
    padding: 0;
    margin: 0;
    box-sizing: border-box;
-   font-family: "Inter", system-ui;
-   color: #243e63;  
+   font-family: "Inter", system-ui;  
 }
 
 
@@ -801,6 +800,14 @@ TESTIMONIALS
     margin: 40px 0 0;
 }
 
+.star__wrapper {
+    color: rgb(246 173 85);
+}
+
+.fa-solid.fa-star {
+    color: rgb(246 173 85);
+}
+
 .rating__title {
     font-size:20px;
     font-weight: 700;
@@ -867,7 +874,13 @@ TESTIMONIALS
     color: rgb(100 21 255);
 }
 
-.fa-solid.fa-arrow-left {
-    color: rgb(100 21 255) !important;
-    
+.testimonial__arrow:hover {
+    color: rgb(80 17 204);
+}
+
+.divider {
+    width: 1px;
+    height: 24px;
+    margin: 12px 0;
+    border-right: 1px solid rgb(218, 223, 243);
 }
