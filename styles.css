@@ -858,7 +858,16 @@ TESTIMONIALS
     justify-content: space-around;
 }
 
-.testimonial__scroll-wrapper, .testimonial__previous-arrow, .testimonial__next-arrow {
+.testimonial__arrow {
+    width: 48px;
+    height:48px;
+    background-color: #edf2f7;
+    border: none;
+    border-radius: 9999px;
+    color: rgb(100 21 255);
+}
+
+.fa-solid.fa-arrow-left {
     color: rgb(100 21 255) !important;
     
 }
