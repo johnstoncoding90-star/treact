@@ -884,3 +884,78 @@ TESTIMONIALS
     margin: 12px 0;
     border-right: 1px solid rgb(218, 223, 243);
 }
+
+
+/*
+
+CALL TO ACTION
+
+*/
+
+
+.cta__text-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    width: 100%;
+    background-color: #6415ff;
+    color: #f7fafc;
+    border-radius: 8px;
+    border: none;
+}
+
+.get-started__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 128px;
+    padding: 32px;
+
+}
+
+.cta__h2--wrapper {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta__header {
+    width: 100%;
+    font-size: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.cta__link--row {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cta__link {
+    border-radius: 9999px;
+    padding: 18px 32px;
+}
+
+.cta__get-started {
+    background-color: #f56565;
+}
+
+.cta__get-started:hover {
+    background-color: rgb(229 62 62);
+}
+
+.cta__contact {
+    background-color:#6415ff;
+    border: 1px solid rgb(160 174 192);
+}
+
+.cta__contact:hover {
+    background-color: #f7fafc;
+    color: #6415ff;
+    border: none;
+}
