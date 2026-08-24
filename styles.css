@@ -957,5 +957,84 @@ CALL TO ACTION
 .cta__contact:hover {
     background-color: #f7fafc;
     color: #6415ff;
-    border: none;
+    border: 1px solid #f7fafc;
+}
+
+
+/*
+FOOTER
+*/
+
+
+
+
+
+.footer__row {
+    background-color: #6415ff;
+    color: #f7fafc;
+}
+
+.columns__wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 48px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.footer__column {
+    padding: 40px;
+}
+
+.column__title {
+    font-weight: 700;
+}
+
+.margin__box {
+    display: flex;
+    border-bottom: 2px solid rgb(116 44 255);
+    margin: 0 auto;
+    width: 61%;
+    max-width: 1280px;
+}
+
+.footer__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 54px;
+}
+
+.footer__logo--wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 32px;
+    height: 32px;
+}
+
+.footer__logo--text {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 4px;
+}
+
+.footer__copyright {
+    font-size: 16px;
+}
+
+.footer__links--wrapper {
+    display: flex;
+}
+
+.footer__social {
+    width: 16px;
+    height: 16px;
+    background-color: #f7fafc;
+    color: black;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 9999px;
 }
