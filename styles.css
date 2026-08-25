@@ -123,9 +123,32 @@ nav {
     align-items: center;
 }
 
-.nav__link--tertiary:hover {
-    
+.nav__link--tertiary {
+    position: relative;
 }
+.nav__link--tertiary:hover {
+    color:#6415ff;
+}
+
+.nav__link--tertiary::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #6415ff;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 100ms ease-in-out;
+}
+
+.nav__link--tertiary:hover::after {
+    transform: scaleX(1); 
+}
+
+
+
 
 .nav__link {
     font-size: 14px;
@@ -138,6 +161,29 @@ nav {
 
 .nav__link-secondary {
     margin: 0 24px 0 48px;
+    position: relative;
+}
+
+.nav__link-secondary:hover {
+    color: #6415ff;
+}
+
+.nav__link-secondary::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #6415ff;
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 100ms ease-in-out;
+}
+
+
+.nav__link-secondary:hover::after {
+    transform: scaleX(1); 
 }
 
 .nav__link-primary {
@@ -1067,7 +1113,7 @@ FOOTER
 
 
 .footer__link:hover::after {
-    transform: scaleX(1); /* Scale the underline to full width on hover */
+    transform: scaleX(1); 
 }
 
 
