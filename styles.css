@@ -987,6 +987,7 @@ CALL TO ACTION
 .cta__link {
     border-radius: 9999px;
     padding: 18px 32px;
+    color: #fff;
 }
 
 .cta__get-started {
@@ -1088,6 +1089,7 @@ FOOTER
 .footer__link {
     font-size: 14px;
     position: relative;
+    color: #fff;
 }
 
 .footer__link:hover {
@@ -1120,6 +1122,7 @@ FOOTER
 .footer__social {
     width: 16px;
     height: 16px;
+    color: black;
     background-color: #e5e7e9;
     margin: 8px;
     padding: 8px;
