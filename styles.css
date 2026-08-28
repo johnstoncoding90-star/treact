@@ -680,6 +680,10 @@ li {
         flex-direction: column;
         align-items: center;
     }
+
+    .section__subtitle {
+        margin: 40px 0;
+    }
     
     .pricing__title {
         width: 100%;
@@ -1224,6 +1228,14 @@ MOBILE RESPONSIVENESS
 /* FOR LARGE TABLETS AND SMALL COMPUTERS */
 
 @media(max-width: 1024px) {
+     .nav__links {
+        display: none;
+    }
+    .btn__menu {
+        display: block;
+    }
+
+    
     .btn-input {
         display: block;
     }
@@ -1267,6 +1279,8 @@ MOBILE RESPONSIVENESS
 
 
 @media(max-width: 768px) {
+      
+    
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
@@ -1276,6 +1290,10 @@ MOBILE RESPONSIVENESS
     #testimonials .row {
         flex-direction: column;
         align-items: center;
+    }
+
+    #pricing .row {
+        margin-top: 40px;
     }
 
 }
