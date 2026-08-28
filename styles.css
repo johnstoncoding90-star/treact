@@ -1166,8 +1166,31 @@ MOBILE RESPONSIVENESS
     .price__card--wrapper {
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-    
+        align-items: center;   
+    }
+
+    .price__card {
+        width:370px;
+        display: block
+    }
+
+    .get-started__row {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cta__h2--wrapper {
+        width: 80%;
+        margin: 36px 0;
+    }
+
+    .cta__header {
+        text-align: center;
+    }
+
+    .cta__link--row {
+        width: 80%;
+        margin: 0 0 36px 0;
     }
 
 }
