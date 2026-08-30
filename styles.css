@@ -455,7 +455,6 @@ QUALITY
     width: 50%;
     padding: 32px 0;
     margin-right: 64px;
-    position: relative;
 }
 
 .quality__title {
@@ -470,16 +469,19 @@ QUALITY
     line-height: 1.625;
 }
 
+.learn-more__link--wrapper {
+    margin-top: 32px;
+}
+
 .learn__more-link {
     font-size: 14px;
     font-weight: 700;
     border: none;
     background-color: #6415ff;
     color:#f7fafc;
-    margin: 32px 0 0;
+    margin: 32px 0 0 0;
     padding: 12px 32px;
     border-radius: 9999px;
-    position: absolute;
 }
 
 
@@ -606,6 +608,7 @@ li {
     font-size: 20px;
     font-weight: 700;
     margin: 0 0 0 12px;
+    color: #243e63;
   }
 
   .value__para {
@@ -815,6 +818,11 @@ li {
        font-weight: 700;
        color:#1a202c; 
     }
+
+    .business-plan__title {
+        color: #f7fafc;
+    }
+
 
     .plan__feature {
         width: 100%;
@@ -1323,6 +1331,8 @@ MOBILE RESPONSIVENESS
 
     .quality__left {
         text-align: center;
+        width: 80%;
+        margin: 0 auto;
     }
 
     #steps .row,
@@ -1330,6 +1340,25 @@ MOBILE RESPONSIVENESS
         flex-direction: column;
         align-items: center;
     }
+
+    .steps__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left__column-text {
+        align-items: center;
+    }
+
+    .values__description {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description__left, .description__right {
+        align-items: center;
+    }
+
 
     #pricing .row {
         margin-top: 40px;
