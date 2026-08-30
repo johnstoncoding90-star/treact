@@ -1070,6 +1070,7 @@ CALL TO ACTION
     border-radius: 9999px;
     padding: 18px 32px;
     color: #fff;
+    flex-shrink: 0;
 }
 
 .cta__get-started {
@@ -1113,6 +1114,7 @@ FOOTER
 
 .columns__wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1280px;
     margin: 0 auto;
@@ -1377,5 +1379,25 @@ MOBILE RESPONSIVENESS
     .testimonials__text-wrapper {
         width: 70%;
         align-items: center;
+    }
+
+    .get-started__row {
+        margin: 0 16px;
+    }
+
+    .cta__link {
+        margin: 0 16px 0 0;
+    }
+
+    .columns__wrapper {
+        justify-content: normal;
+    }
+
+    .footer__footer {
+        flex-direction: column;
+    }
+
+    .footer__copyright {
+        margin: 24px 0;
     }
 }
