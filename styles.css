@@ -272,6 +272,7 @@ HEADER
 .about__wrapper {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .about__left--wrapper {
@@ -356,7 +357,7 @@ p {
 
 
 .about__right--wrapper {
-    width: 60%;
+    width: 50%;
     display: flex;
 }
 .about__img {
@@ -1399,5 +1400,17 @@ MOBILE RESPONSIVENESS
 
     .footer__copyright {
         margin: 24px 0;
+    }
+}
+
+/*
+
+SMALL PHONES
+
+*/
+
+@media(max-width: 640px) {
+    .input__wrapper {
+        flex-direction: column;
     }
 }
