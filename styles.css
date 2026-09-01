@@ -1412,5 +1412,13 @@ SMALL PHONES
 @media(max-width: 640px) {
     .input__wrapper {
         flex-direction: column;
+        position: relative;
     }
+
+    .btn__input {
+        position: absolute;
+        transform: translateY(90%);
+        width: 100%;
+    }
+
 }
