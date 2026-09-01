@@ -1313,11 +1313,12 @@ MOBILE RESPONSIVENESS
 
     .about__wrapper {
         flex-direction: column;
+        margin: none;
         
     }
 
     .about__left--wrapper {
-        
+        width: 100%;
     }
     
     .about__right--wrapper {
