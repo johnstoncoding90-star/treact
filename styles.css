@@ -1246,6 +1246,20 @@ MOBILE RESPONSIVENESS
         display: block;
     }
 
+     .about__wrapper {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .about__left--wrapper{
+        width: 80%;
+    }
+
+    .input__wrapper {
+        max-width: 448px;
+    }
+
     
     .btn-input {
         display: block;
@@ -1299,10 +1313,11 @@ MOBILE RESPONSIVENESS
 
     .about__wrapper {
         flex-direction: column;
+        
     }
 
     .about__left--wrapper {
-        width:80%;
+        
     }
     
     .about__right--wrapper {
@@ -1412,12 +1427,16 @@ SMALL PHONES
 @media(max-width: 640px) {
     .input__wrapper {
         flex-direction: column;
-        position: relative;
+        border: none;
+    }
+
+    input {
+        border: solid 2px rgb(226, 232, 240);
+        flex-shrink: 0;
     }
 
     .btn__input {
-        position: absolute;
-        transform: translateY(90%);
+        margin: 18px 0 0 0;
         width: 100%;
     }
 
