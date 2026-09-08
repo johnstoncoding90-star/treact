@@ -1145,6 +1145,8 @@ FOOTER
     padding: 64px;
 }
 
+
+
 .column__title {
     font-weight: 700;
 }
@@ -1552,10 +1554,15 @@ SMALL PHONES
         flex-direction: column;
     }
     
+    .cta__header {
+        font-size: 24px;
+    }
+
     .cta__link {
         text-align: center;
-        width: 50%;
-        margin: 0 auto;
+        margin: 8px auto;
+        padding: 12px 24px;
+        font-size: 14px;
     }
 
 }
