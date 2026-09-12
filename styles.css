@@ -1488,7 +1488,7 @@ MOBILE RESPONSIVENESS
     }
 
     .columns__wrapper {
-        justify-content: normal;
+        justify-content: flex-start;
     }
 
     .footer__column {
@@ -1496,9 +1496,13 @@ MOBILE RESPONSIVENESS
         text-align: left;
     }
 
-   .footer__column--list {
+    .footer__column--list {
         justify-content: flex-start;
         text-align: left;
+    }
+
+    .footer__column--list li {
+        align-items: flex-start;
     }
 
     .footer__footer {
