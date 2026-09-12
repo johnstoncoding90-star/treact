@@ -83,6 +83,7 @@ button {
     margin: 16px 0 0;
     line-height: 1.625;
 }
+
 /*
 
 NAVBAR
@@ -1142,9 +1143,15 @@ FOOTER
 }
 
 .footer__column {
+    display: flex;
+    flex-direction: column;
     padding: 64px;
 }
 
+.footer__column--list {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .column__title {
@@ -1485,10 +1492,14 @@ MOBILE RESPONSIVENESS
     }
 
     .footer__column {
-        align-items: start;
+        justify-content: flex-start;
+        text-align: left;
     }
 
- 
+   .footer__column--list {
+        justify-content: flex-start;
+        text-align: left;
+    }
 
     .footer__footer {
         flex-direction: column;
@@ -1522,7 +1533,7 @@ SMALL PHONES
     
 
     input:focus {
-    border-color: rgb(100, 21, 255);}
+        border-color: rgb(100, 21, 255);}
 
     .btn__input {
         margin: 18px 0 0 0;
@@ -1563,6 +1574,11 @@ SMALL PHONES
         margin: 8px auto;
         padding: 12px 24px;
         font-size: 14px;
+    }
+
+    .footer__column {
+        text-align: left;
+        align-items: flex-start;
     }
 
 }
