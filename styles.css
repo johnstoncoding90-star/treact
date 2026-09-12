@@ -37,7 +37,19 @@ body {
 
 section {
     padding: 0 32px;
+    animation: slideIn 0.5s ease-out;
+    animation-timeline: view();
+    
 }
+
+section:nth-child(odd) {
+    animation: slideLeft 0.5s ease-out;
+}
+
+section:nth-child(even) {
+    animation: slideRight 0.5s ease-out;
+}
+
 
 main {
     margin-bottom: 96px;
@@ -84,11 +96,37 @@ button {
     line-height: 1.625;
 }
 
+@keyframes slideLeft {
+    from {
+    transform: translateX(-100%);
+}
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+
 /*
 
 NAVBAR
 
 */
+
+
+
+
+#landing {
+    animation: slideIn 0.5s ease-out;
+}
 
 nav {
     display: flex;
@@ -387,6 +425,9 @@ p {
 FEATURES
 
 */
+
+
+
 
 #features .row__narrow {
     display: flex;
