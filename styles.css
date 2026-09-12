@@ -39,7 +39,7 @@ section {
     padding: 0 32px;
     animation: slideIn 0.5s ease-out;
     animation-timeline: view();
-    
+
 }
 
 section:nth-child(odd) {
@@ -121,12 +121,6 @@ NAVBAR
 
 */
 
-
-
-
-#landing {
-    animation: slideIn 0.5s ease-out;
-}
 
 nav {
     display: flex;
