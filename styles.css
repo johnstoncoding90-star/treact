@@ -316,7 +316,6 @@ HEADER
 .header__about {
     width: 100%;
     color: #1a202c;
-    font-size: 36px;
 }
 
 .about__para {
@@ -419,8 +418,6 @@ p {
 FEATURES
 
 */
-
-
 
 
 #features .row__narrow {
