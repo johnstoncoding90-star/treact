@@ -35,20 +35,7 @@ body {
     color: #6415ff;
 }
 
-section {
-    padding: 0 32px;
-    animation: slideIn 0.5s ease-out;
-    animation-timeline: view();
 
-}
-
-section:nth-child(odd) {
-    animation: slideLeft 0.5s ease-out;
-}
-
-section:nth-child(even) {
-    animation: slideRight 0.5s ease-out;
-}
 
 
 main {
@@ -294,6 +281,10 @@ nav {
     background: #6415ff;
     padding: 12px 32px;  
     font-weight: 600;
+}
+
+.nav__link-primary:hover {
+    background-color: #3c0d99;
 }
 
 /*
