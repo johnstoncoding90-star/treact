@@ -324,6 +324,7 @@ HEADER
     border: solid 2px rgb(226, 232, 240);
     border-radius: 9999px;
     padding: 4px;
+    margin: 0 auto;
 }
 
 .input__wrapper:hover {
