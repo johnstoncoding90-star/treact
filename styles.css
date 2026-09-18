@@ -308,6 +308,7 @@ HEADER
 .header__about {
     width: 100%;
     color: #1a202c;
+    text-align: center;
 }
 
 .about__para {
@@ -316,6 +317,7 @@ HEADER
     font-size: 16px;
     font-weight:500;
     color:#243e63;
+    text-align: center;
 }
 
 .input__wrapper {
@@ -325,6 +327,7 @@ HEADER
     border-radius: 9999px;
     padding: 4px;
     margin: 0 auto;
+    max-width: 448px;
 }
 
 .input__wrapper:hover {
@@ -1308,6 +1311,11 @@ MOBILE RESPONSIVENESS
 
     .about__left--wrapper{
         width: 80%;
+    }
+
+    .about__right--wrapper {
+        width: 80%;
+        margin-top: 24px;
     }
 
     .input__wrapper {
