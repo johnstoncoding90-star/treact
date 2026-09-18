@@ -1322,7 +1322,9 @@ MOBILE RESPONSIVENESS
         align-items: center;
     }
 
-
+    .feature__wrapper {
+        width: calc((100% / 2) - 32px);
+    }
     
     .price__card--wrapper {
         flex-direction: column;
