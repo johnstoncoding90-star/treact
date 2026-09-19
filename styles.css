@@ -1313,9 +1313,18 @@ MOBILE RESPONSIVENESS
         width: 80%;
     }
 
+   .about__customers--wrapper {
+        text-align: center;
+        align-items: center;
+   }
+
+   .customers {
+    padding: 0 0 0 0;
+   }
+
     .about__right--wrapper {
         width: 80%;
-        margin-top: 24px;
+        margin-top: 30px;
     }
 
     .input__wrapper {
@@ -1329,6 +1338,10 @@ MOBILE RESPONSIVENESS
     header .row {
         flex-direction: column;
         align-items: center;
+    }
+
+    .features__wrapper {
+        padding: 24px;
     }
 
     .feature__wrapper {
